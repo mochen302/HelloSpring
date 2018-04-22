@@ -4,11 +4,11 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="springHelloWorld"
-          class="com.mochen.SpringHelloWorld"/>
+          class="com.mochen.hello.SpringHelloWorld"/>
     <bean id="strutsHelloWorld"
-          class="com.mochen.StrutsHelloWorld"/>
+          class="com.mochen.hello.StrutsHelloWorld"/>
     <bean id="helloWorldService"
-          class="com.mochen.HelloWorldService">
+          class="com.mochen.hello.HelloWorldService">
         <property name="helloWorld" ref="springHelloWorld"/>
     </bean>
 </beans>

@@ -1,4 +1,4 @@
-package com.mochen;
+package com.mochen.hello;
 
 public class SpringHelloWorld implements IHelloWorld {
 
